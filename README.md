@@ -70,7 +70,7 @@ landing-page-pessoal/
 
 ## Autor
 
-Feito por **Gustavo Lacerda** — estudante de Análise e Desenvolvimento de Sistemas, focado em back-end e em constante evolução.
+Feito por **Gustavo Lacerda**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavo-porto-lacerda-6488b6399/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavoplr)
