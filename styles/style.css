@@ -1,6 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+    
+    --fonte-primaria: "Krona One", sans-serif;
+    --font-secundaria: "Montserrat", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +18,8 @@
 
 body {
     box-sizing: border-box;
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .apresentacao{
@@ -24,20 +34,24 @@ body {
     flex-direction: column;
     gap: 30px;
 }
-.imagem-moto{
+.imagem-me{
+    width: 488px;
+    height: 550px;
+}
+.image-about{
     width: 488px;
     height: 550px;
 }
 .apresentacao__conteudo__titulo{
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte-primaria);
 }
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 .apresentacao__conteudo__texto{
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-secundaria);
     font-weight: 400;
 }
 .apresentacao__links{
@@ -48,7 +62,7 @@ body {
     gap: 28px;
 }
 .apresentacao__links__subtitulo{
-font-family: "Krona One", sans-serif;
+font-family: var(--fonte-primaria);
 font-weight: 400;
 font-size: 24px;
 }
@@ -62,22 +76,22 @@ font-size: 24px;
     font-size: 24px;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #f6f6f6;
-    font-family: "Montserrat", sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
     font-weight: 600;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
 }
 .apresentacao__links__link:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
     padding: 3%;
 }
 
 .rodape{
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
@@ -90,7 +104,7 @@ font-size: 24px;
     gap: 80px;
 }
 .cabecalho__menu__link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
     color: #22D4FD;
@@ -98,5 +112,5 @@ font-size: 24px;
 }
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
