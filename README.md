@@ -30,6 +30,8 @@ Esse projeto nasceu com um objetivo simples: colocar em prática o que estou apr
 - Flexbox para posicionamento e alinhamento dos elementos
 - Variáveis CSS com `:root` para organizar cores e fontes
 - Pseudo-seletor `:hover` para efeitos interativos nos botões
+- Responsividade com `@media queries` para adaptação em diferentes telas
+- Unidades de medida relativas como `rem`, `%` e `vw/vh`
 - `border-radius`, `border`, `text-decoration` e outras propriedades de estilização
 - Como importar e aplicar fontes do Google Fonts
 - Navegação entre páginas com a tag `<a>`
