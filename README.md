@@ -6,7 +6,7 @@ Página de apresentação pessoal desenvolvida como primeiro projeto prático do
 
 ## Sobre o projeto
 
-Esse projeto nasceu com um objetivo simples: colocar em prática o que estou aprendendo em HTML5 e CSS3, criando algo real que represente quem eu sou. É uma landing page com duas páginas — uma de apresentação e uma de sobre mim — com links para minhas redes sociais.
+Esse projeto nasceu com um objetivo simples: colocar em prática o que estou aprendendo em HTML5 e CSS3, criando algo real que represente quem eu sou. É uma landing page com duas páginas, uma de apresentação e uma de sobre mim, com links para minhas redes sociais.
 
 ---
 
